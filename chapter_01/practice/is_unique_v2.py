@@ -270,6 +270,18 @@ def is_unique_v21(string):
         char_arr[val] = True
         
     return True
+
+def is_unique_v22(string):
+    if len(string) > 128:
+        return False
+    
+    char_set = [False] * 128
+    for x in string:
+        val = ord(x)
+        if char_set[val]:
+            return False
+        char_set[val] = True
+    return True
     
 class Test(unittest.TestCase):
     test_cases = [
@@ -302,7 +314,8 @@ class Test(unittest.TestCase):
         is_unique_v18,
         is_unique_v19,
         is_unique_v20,
-        # is_unique_v21,
+        # is_unique_v21,    
+        is_unique_v22,
         # is_unique_chars_pythonic,
         # is_unique_chars_algorithmic,
         # is_unique_bit_vector,

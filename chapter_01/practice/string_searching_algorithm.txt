@@ -1,0 +1,10 @@
+https://en.wikipedia.org/wiki/String-searching_algorithm
+
+rabin karp
+ - wiki
+ https://en.wikipedia.org/wiki/Rabin%E2%80%93Karp_algorithm
+ - geeksforgeeks
+ https://www.geeksforgeeks.org/rabin-karp-algorithm-for-pattern-searching/
+
+
+https://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm
